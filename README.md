@@ -63,5 +63,24 @@ streamlit run app.py
 
 
 ## 🧱 Example Workflow
+
+### Example 1️⃣
 1. Upload a short video
 ![](demo_images/demo_1/upload.png)
+
+2. Get the video transcription
+![](demo_images/demo_1/transcript.png)
+
+3. Perform Video Analysis
+![](demo_images/demo_1/video.png)
+
+4. Generate PPTX File
+![](demo_images/demo_1/pptx.png)
+
+5. Generate PDF File
+   - Sometimes, the generation will fail due to wrong format (e.g: generate pptx instead of pdf), multiple retries are needed.
+![](demo_images/demo_1/pdf.png)
+
+
+
+
