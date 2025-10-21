@@ -20,6 +20,11 @@ Everything runs **locally**, with **no cloud inference or external APIs**.
 
 ---
 
+## 🖥️ Hardware
+- CPU: AMD Ryzen 5 6600H
+- GPU: Nvidia Geforce RTX3050 Laptop GPU with 4GB VRAM
+- CUDA version: CUDA 12.3
+
 ## 🧩 AI Agents Architecture
 ![](demo_images/langgraph_ai_agents_architecture.png)
 
