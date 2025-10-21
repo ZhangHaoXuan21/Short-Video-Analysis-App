@@ -49,5 +49,16 @@ Everything runs **locally**, with **no cloud inference or external APIs**.
 ✅ Output generation: PDF & PPTX
 
 
+## 🧰 Setup Guide
+
+### 1️⃣ Clone Repository
+- git clone https://github.com/ZhangHaoXuan21/Short-Video-Analysis-App.git
+- cd Short-Video-Analysis-App
+
+### 2️⃣ Setup Conda Environment
+conda env create -f environment.yml -n <new_environment_name>
+
+### 3️⃣ Run the App
+streamlit run app.py
 
 
