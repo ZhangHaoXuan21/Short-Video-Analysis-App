@@ -116,7 +116,7 @@ streamlit run app.py
 
 ## ✅ Requirement Fulfillment Summary
 
-Below is a self-assessment summary of how this project meets the **GenAI Software Solutions Engineer Test Assignment** requirements.
+Below is a self-assessment summary of how this project meets the requirements.
 
 ### 💡 Functional Requirements
 | Requirement | Status | Notes |
