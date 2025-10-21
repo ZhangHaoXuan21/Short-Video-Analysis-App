@@ -19,9 +19,49 @@ Everything runs **locally**, with **no cloud inference or external APIs**.
 
 ---
 
-## 🧩 System Architecture
+## 🧩 AI Agents Architecture
 ![](demo_images/langgraph_ai_agents_architecture.png)
 
 
+## 🧠 Core Technologies
+
+| Component | Technology |
+|------------|-------------|
+| **Frontend** | Streamlit |
+| **Backend Framework** | LangGraph + LangChain |
+| **LLM / VLM Models** | Qwen1.7B, SmolVLM2, Whisper Tiny |
+| **Report Generation** | ReportLab (PDF) + python-pptx |
+| **Persistence** | Pickle-based chat memory |
+| **Environment** | Conda-managed virtual environment |
+
+---
+
+## 🧪 Features
+
+✅ Upload short video clips (≤ 1 minute)  
+✅ Natural language queries like:
+   - “Transcribe the video”
+   - “What objects are shown?”
+   - “Create a PowerPoint of the key points”  
+✅ Multi-agent orchestration for transcription, vision, and generation  
+✅ Offline inference with local Hugging Face models  
+✅ Persistent memory store for previous chat sessions  
+✅ Output generation: PDF & PPTX
 
 
+## 🧰 Setup Guide
+
+### 1️⃣ Clone Repository
+- git clone https://github.com/ZhangHaoXuan21/Short-Video-Analysis-App.git
+- cd Short-Video-Analysis-App
+
+### 2️⃣ Setup Conda Environment
+conda env create -f environment.yml -n <new_environment_name>
+
+### 3️⃣ Run the App
+streamlit run app.py
+
+
+## 🧱 Example Workflow
+1. Upload a short video
+<img width="639" height="864" alt="Screenshot 2025-10-21 163507" src="https://github.com/user-attachments/assets/8b26d6b2-57ed-43af-8443-f672e98de95b" />
