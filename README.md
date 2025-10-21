@@ -82,6 +82,21 @@ streamlit run app.py
 ![](demo_images/demo_1/pdf.png)
 
 
+### Example 2️⃣
+1. Upload a short video
+![](demo_images/demo_2/upload.png)
+
+2. Get the video transcription
+![](demo_images/demo_2/transcript.png)
+
+3. Perform Video Analysis
+![](demo_images/demo_2/video.png)
+
+4. Generate PDF File
+- File can be located at demo_2/summary_discussion.pdf.pdf
+![](demo_images/demo_2/pdf.png)
+
+
 💡 Limitations & Future Work
 
 - Model inference speed could be improved with OpenVINO optimization.
@@ -94,25 +109,6 @@ streamlit run app.py
 ## ✅ Requirement Fulfillment Summary
 
 Below is a self-assessment summary of how this project meets the **GenAI Software Solutions Engineer Test Assignment** requirements.
-
-| Category | Requirement | Status | Notes |
-|-----------|--------------|--------|--------|
-| **Objective** | Fully local AI desktop app for analyzing short videos | ✅ | Runs entirely offline with local Hugging Face models |
-|  | Extract, summarize, and generate reports (PDF/PPTX) | ✅ | Both PDF and PowerPoint generation supported |
-|  | Operate offline with self-developed agents | ✅ | All agents run locally; no internet or cloud inference |
-
-### 🧩 Key Skills
-| Skill | Status | Notes |
-|--------|---------|-------|
-| Agentic AI | ✅ | Implemented using LangGraph multi-agent orchestration |
-| MCP | ⚙️ *Partial* | Conceptually aligned but not using official MCP protocol |
-| Python | ✅ | Backend fully implemented in Python |
-| JavaScript / React | ❌ | Replaced with Streamlit frontend |
-| Tauri | ❌ | Not implemented (prototype uses Streamlit) |
-| C# | ❌ | No C# launcher provided |
-| OpenVINO | ⚙️ *Partial* | Future optimization plan; not yet integrated |
-| Local Model Runtimes | ✅ | Hugging Face models (Whisper Tiny, SmolVLM2, Qwen1.7B) |
-| gRPC API | ⚙️ *Partial* | Current backend uses local calls; gRPC integration planned |
 
 ### 💡 Functional Requirements
 | Requirement | Status | Notes |
