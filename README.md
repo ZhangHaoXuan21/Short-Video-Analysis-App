@@ -19,8 +19,34 @@ Everything runs **locally**, with **no cloud inference or external APIs**.
 
 ---
 
-## 🧩 System Architecture
+## 🧩 AI Agents Architecture
 ![](demo_images/langgraph_ai_agents_architecture.png)
+
+
+## 🧠 Core Technologies
+
+| Component | Technology |
+|------------|-------------|
+| **Frontend** | Streamlit |
+| **Backend Framework** | LangGraph + LangChain |
+| **LLM / VLM Models** | Qwen1.7B, SmolVLM2, Whisper Tiny |
+| **Report Generation** | ReportLab (PDF) + python-pptx |
+| **Persistence** | Pickle-based chat memory |
+| **Environment** | Conda-managed virtual environment |
+
+---
+
+## 🧪 Features
+
+✅ Upload short video clips (≤ 1 minute)  
+✅ Natural language queries like:
+   - “Transcribe the video”
+   - “What objects are shown?”
+   - “Create a PowerPoint of the key points”  
+✅ Multi-agent orchestration for transcription, vision, and generation  
+✅ Offline inference with local Hugging Face models  
+✅ Persistent memory store for previous chat sessions  
+✅ Output generation: PDF & PPTX
 
 
 
