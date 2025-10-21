@@ -78,9 +78,14 @@ streamlit run app.py
 ![](demo_images/demo_1/pptx.png)
 
 5. Generate PDF File
-   - Sometimes, the generation will fail due to wrong format (e.g: generate pptx instead of pdf), multiple retries are needed.
+- Sometimes, the generation will fail due to wrong format (e.g: generate pptx instead of pdf), multiple retries are needed.
 ![](demo_images/demo_1/pdf.png)
 
 
+💡 Limitations & Future Work
 
+- Model inference speed could be improved with OpenVINO optimization.
+- Current Streamlit frontend could be ported to Tauri + React for production.
+- Multi-agent coordination could later use gRPC or a proper MCP server for modularity.
+- Future versions may integrate audio emotion analysis and topic clustering.
 
