@@ -1,4 +1,4 @@
-name: jaredllm
+name: jaredllm2
 channels:
   - defaults
 dependencies:
