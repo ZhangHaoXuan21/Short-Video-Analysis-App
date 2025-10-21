@@ -101,12 +101,17 @@ streamlit run app.py
 ![](demo_images/demo_2/pdf.png)
 
 
-💡 Limitations & Future Work
+## 💡 Limitations & Future Work
 
 - Model inference speed could be improved with OpenVINO optimization.
 - Current Streamlit frontend could be ported to Tauri + React for production.
 - Multi-agent coordination could later use gRPC or a proper MCP server for modularity.
-- Future versions may integrate audio emotion analysis and topic clustering.
+- Further research on prompt engineering to improve response quality for small local models.
+- Experiment with larger models (e.g., Mistral, Llama, or OpenVINO-optimized variants) to benchmark accuracy vs. latency.
+- Add human-in-the-loop clarification flow for better alignment with user intent.
+- Improve PDF/PPTX report generation layout and visual styling.
+- Implement C# desktop launcher integration for seamless offline deployment.
+
 
 ---
 
@@ -120,7 +125,7 @@ Below is a self-assessment summary of how this project meets the **GenAI Softwar
 | Upload `.mp4` files | ✅ | Implemented via Streamlit uploader |
 | Natural language interaction | ✅ | Query via chat interface |
 | Example queries (“Transcribe”, “Create PPT”, “Summarize”, etc.) | ✅ | All supported via agents |
-| Human-in-the-loop clarification | ⚙️ *Partial* | Basic confirmation, but not full clarification flow |
+| Human-in-the-loop clarification | ❌ | No human-in-the-loop clarification  |
 | Persistent chat history | ✅ | Implemented using pickle-based memory |
 
 ### 🧱 Architecture Requirements
@@ -129,7 +134,7 @@ Below is a self-assessment summary of how this project meets the **GenAI Softwar
 | Frontend: React + Tauri | ❌ | Prototype implemented with Streamlit |
 | Chat-style UI | ✅ | Streamlit chat layout implemented |
 | Local persistent storage | ✅ | Pickle file memory system |
-| Communication via gRPC | ⚙️ *Partial* | Internal Python-based communication for now |
+| Communication via gRPC | ❌ | No gRPC communication, internal Python-based communication for now |
 | Backend: Python | ✅ | Fully Python-based architecture |
 | Multiple agents | ✅ | Transcript, Vision, and Generation agents implemented |
 | Local inference (OpenVINO / HF) | ✅ | All inference done locally with Hugging Face models |
@@ -139,7 +144,7 @@ Below is a self-assessment summary of how this project meets the **GenAI Softwar
 | Requirement | Status | Notes |
 |--------------|---------|-------|
 | Modular, well-structured code | ✅ | Agents and utilities modularized |
-| Architecture diagram | ⚙️ *Partial* | Logical architecture included; visual diagram planned |
+| Architecture diagram | ✅ | Logical architecture included; visual diagram planned |
 | Detailed setup guide | ✅ | Conda + Streamlit setup documented |
 | C# launcher | ❌ | Not implemented |
 
@@ -153,22 +158,6 @@ Below is a self-assessment summary of how this project meets the **GenAI Softwar
 
 ---
 
-### 📊 Overall Fulfillment Summary
-
-| Category | Fulfilled | Partial | Not Implemented |
-|-----------|------------|----------|------------------|
-| Objective | ✅✅✅ | - | - |
-| Key Skills | ✅✅ | ⚙️⚙️⚙️ | ❌❌❌ |
-| Functional | ✅✅✅✅ | ⚙️ | - |
-| Architecture | ✅✅✅✅ | ⚙️⚙️ | ❌ |
-| Bonus Points | ✅ | ⚙️ | ❌ |
-| Submission | ✅✅✅ | ⚙️ | - |
-
-**✅ Total Coverage:** ~80%  
-**⚙️ Partial / Planned Enhancements:** ~15%  
-**❌ Not Implemented:** ~5% (React/Tauri/C# launcher)
-
----
 
 > **Summary:**  
 > This project successfully demonstrates a fully local, multi-agent GenAI system capable of analyzing, transcribing, and summarizing short videos offline.  
