@@ -62,3 +62,6 @@ conda env create -f environment.yml -n <new_environment_name>
 streamlit run app.py
 
 
+## 🧱 Example Workflow
+1. Upload a short video
+<img width="639" height="864" alt="Screenshot 2025-10-21 163507" src="https://github.com/user-attachments/assets/8b26d6b2-57ed-43af-8443-f672e98de95b" />
