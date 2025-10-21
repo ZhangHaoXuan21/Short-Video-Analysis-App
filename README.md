@@ -3,6 +3,8 @@
 An **offline, agentic AI video analysis system** built with **Streamlit + LangGraph + LangChain + Hugging Face models**.  
 This project was developed as part of the **GenAI Software Solutions Engineer Test Assignment**.
 
+![](demo_images/app_img.png)
+
 ---
 
 ## 🚀 Overview
