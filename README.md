@@ -75,9 +75,11 @@ streamlit run app.py
 ![](demo_images/demo_1/video.png)
 
 4. Generate PPTX File
+- File can be located at demo_1/bank_robbery_discussion.pptx
 ![](demo_images/demo_1/pptx.png)
 
-5. Generate PDF File
+6. Generate PDF File
+- File can be located at demo_1/discussion_summary.pdf
 - Sometimes, the generation will fail due to wrong format (e.g: generate pptx instead of pdf), multiple retries are needed.
 ![](demo_images/demo_1/pdf.png)
 
