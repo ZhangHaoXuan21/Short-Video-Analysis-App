@@ -20,5 +20,8 @@ Everything runs **locally**, with **no cloud inference or external APIs**.
 ---
 
 ## 🧩 System Architecture
+![](demo_images/langgraph_ai_agents_architecture.png])
+
+
 
 
